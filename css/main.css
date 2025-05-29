@@ -65,12 +65,84 @@
 }
 
 .nome__explicacao{
+    margin: 10rem 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .img__skylanome{
-    width: 400px;
-    height: 200px;
+    margin: 10rem 0 4rem 0;
+    width: 800px;
+    height: 600px;
+}
+
+.texto {
+    font-size: 18px;
+}
+
+
+.conteudo__nincho{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10rem 0;
+}
+
+.texto__nincho {
+    margin: 0 1rem;
+}
+
+.conteudo__textonincho {
+    margin: 0 0 1rem 0;
+}
+.nincho {
+    margin: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.rodapé {
+    background: var(--cor-de-fundo-rdp);
+    text-align: center;
+}
+
+
+.rodapé .container {
+    padding: 3rem;
+}
+
+.rodapé__titulo {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodapé__vagas {
+    font-size: 20px;
+    color: var(--cinza);
+    padding: 1em 0 2em 0;
+}
+
+.rodapé__email {
+    padding: 0.9em 10em 0.9em 1em;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+}
+
+.rodape__botao {
+    padding: 1em;
+    background-color: var(--rosa-botao);
+    border: 1px solid var(--rosa-botao);
+    border-radius: 10px;
+}
+
+.rodape__cadastrar{
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.rodapé__direitos {
+    color: #98A2B3;
+    padding: 2em 0 0 0;
 }

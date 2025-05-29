@@ -6,9 +6,11 @@
     --cor-de-fundo: #00367A;
     --rosa-botao: #FD4296;
     --branco: #ffffff;
+    --cor-de-fundo-rdp: #1467AB;
 }
 
 body {
+    scroll-behavior: smooth;
     background: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
     font-size: 16px;

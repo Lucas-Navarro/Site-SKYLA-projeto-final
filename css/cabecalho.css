@@ -16,6 +16,9 @@
     text-decoration: none;
     color: #ffffff;
 }
+.cabecalho__link:hover {
+    border-bottom:2px solid #ffffff
+}
 
 .cabecalho__botao{
     display: flex;
