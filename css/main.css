@@ -1,0 +1,76 @@
+.sobrenos {
+    margin: 2rem 4rem;
+    text-align: center;
+}
+
+.sobrenos__titulo {
+    padding: 0.5rem 0;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    flex: 1;
+    gap: 136px;
+    margin: 4rem 4rem;
+}
+
+.cards-card{
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+    height: 340px;
+    width: 250px;
+    border-radius: 1rem;
+    border: 2px solid #fff;
+}
+
+.card-img{
+    width: 200px;
+    height: 190px;
+}
+
+.card-botao-texto{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.card__botao{
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 0.5em 4.7em;
+}
+
+
+.link__baixar{
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    text-transform: uppercase;
+    padding: 0.5rem;
+    border: 5px solid var(--rosa-botao);
+    border-radius: 8px;
+    background-color: var(--rosa-botao);
+}
+
+.nome__explicacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img__skylanome{
+    width: 400px;
+    height: 200px;
+}
