@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.sobrenos__titulo {
+.titulo {
     padding: 0.5rem 0;
     font-size: 36px;
     font-weight: 600;
@@ -95,6 +95,7 @@
 
 .conteudo__textonincho {
     margin: 0 0 1rem 0;
+    text-align: left;
 }
 .nincho {
     margin: 4rem;

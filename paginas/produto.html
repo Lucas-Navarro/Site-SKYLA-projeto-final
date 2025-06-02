@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../css/produto.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -12,8 +13,7 @@
     </head>
     <body>
         <header class='cabecalho'>
-            <img class='img_logo' src="../img/skyla_semredeneurall.png" alt="Logo Skyla">
-            <nav class="cabeçalho__nav">
+            <button class="cabecalho__botao"><a href="../index.html"><img class='img_logo' src="../img/skyla_semredeneurall.png" alt="Logo Skyla"></a></button>            <nav class="cabeçalho__nav">
                 <a href="#" class="cabecalho__link">Produto</a>
                 <a href="planos.html" class="cabecalho__link">Planos</a>
                 <a href="../index.html" class="cabecalho__link">Sobre nós</a>
@@ -22,15 +22,26 @@
                 <button class="cabecalho__botao"><a href="#" class="cabecalho__baixar">Baixar APP</a></button>
             </div>
         </header>
-        <main>
-
+        <main class="sobrenos">
+            <span class="sobrenos__intro">Produto</span>
+            <h1 class="titulo">Dolphin</h1>
+            <section class="sobre__produto">
+                <img  class="imagem__produto" src="../img/imagem_app.png" alt="Imagem APP Dolphin">
+                <p class="texto__app">Descubra o mundo da programação de forma <strong>divertida</strong> e <strong>interativa!</strong> Nosso aplicativo foi criado especialmente para crianças e adolescentes, com jogos, desafios e tutoriais que ensinam lógica,
+                     pensamento computacional e linguagens como Scratch e Python.<br><br> A cada fase, os usuários desenvolvem habilidades valiosas enquanto se divertem criando seus próprios projetos. Com uma interface amigável, personagens cativantes e missões envolventes, 
+                     aprender a programar nunca foi tão fácil. Ideal para iniciantes, o app estimula a criatividade,
+                     o raciocínio e a resolução de problemas. Transforme o tempo de tela em aprendizado com nosso app!</p>
+            </section>
         </main>
         <footer class="rodapé">
             <div class="container">
                 <h2 class="rodapé__titulo">Acompanhe as nossas atualizações</h2>
                 <p class="rodapé__vagas">Fique por dentro das nossas atividades e notícias</p>
-                <input class="rodapé__email" type="email" placeholder="Seu e-mail">
-                <button class="rodape__botao"><a href="#" class="rodape__cadastrar">Cadastrar</a></button>
+                <!-- Adicionar nas outras páginas-->
+                <form action="../email.txt" method="post">
+                    <input class="rodapé__email" type="email" placeholder="Seu e-mail">
+                    <button class="rodape__botao" type="submit">Cadastrar</button>
+                </form>
                 <div>
                 <p class="rodapé__direitos">© 2025 Skyla. Todos os direitos reservados.</p>
                 </div>
